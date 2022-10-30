@@ -15,8 +15,8 @@ public class Hourglass {
         i = height % 2 == 0? i-1: i-2;
         while (x <= height){
             System.out.println(empty.repeat(i) + eight.repeat(x) + empty.repeat(i));
-                i--;
-                x += 2;
+            i--;
+            x += 2;
         }
     }
 }
